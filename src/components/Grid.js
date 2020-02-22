@@ -4,9 +4,9 @@ import Box from './Box'
 class Grid extends React.Component{
 
     render(){
-        const width = this.props.cols * 14;
+        const width = this.props.cols * 16;
         var rowsArr = [];
-
+        console.log(this.props)
         var boxClass = "";
         for (var i = 0; i<this.props.rows;i++){
             for (var j = 0; j<this.props.cols;j++){
